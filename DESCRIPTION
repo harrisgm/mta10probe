@@ -1,0 +1,10 @@
+Package: mta10probe
+Title: Probe sequence data for microarrays of type mta10
+Version: 0.0.2
+Created: Fri Aug 30 14:08:46 2019
+Author: The Bioconductor Project www.bioconductor.org 
+Description: This package was automatically created by package AnnotationForge version 1.26.0. The probe sequence data was obtained from http://www.affymetrix.com. 
+Maintainer: Guy M. Harris <harrisgm@vcu.edu>
+Depends: R (>= 1.6), AnnotationDbi (>= 1.26.0)
+License:  LGPL
+biocViews: AnnotationData, AffymetrixChip, probe, mta10, Mus musculus
