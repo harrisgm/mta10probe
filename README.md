@@ -1,7 +1,11 @@
 # mta10probe
 ===================
 
-The `mta10probe` package is an AnnotationForge-generated package containing the probe sequence information for MTA-1_0 (ClariomD mouse) array.  The package contains a `data.frame` containing the full Affymetrix/Thermo-Fisher "probe.tab" file.  The original probe.tab file can be found downloaded from the Affymetrix website (http://www.affymetrix.com/Auth/analysis/downloads/lf/xta/MTA-1_0/MTA-1_0.mm10.probe.tab.zip) and the Thermo-Fisher website (https://sec-assets.thermofisher.com/TFS-Assets/LSG/Support-Files/MTA-1_0-mm10-probe-tab.zip).
+The `mta10probe` package is an AnnotationForge-generated package containing the probe sequence information for MTA-1_0 (ClariomD mouse) array.  The package contains a `data.frame` containing the full Affymetrix/Thermo-Fisher "probe.tab" file.  
+
+The original probe.tab file can be found downloaded from the Affymetrix website (http://www.affymetrix.com/Auth/analysis/downloads/lf/xta/MTA-1_0/MTA-1_0.mm10.probe.tab.zip) 
+
+The original probe.tab file can also be found on the Thermo-Fisher website (https://sec-assets.thermofisher.com/TFS-Assets/LSG/Support-Files/MTA-1_0-mm10-probe-tab.zip).
 
 The `AnnotationForge` package required the `getProbeDataAffy` function to be modified to correctly read in the `probe_tab` file for newer Affymetrix array types.  This modified function was saved as `getProbeDataMTA`.  This function can be uploaded if desired.
 
